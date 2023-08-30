@@ -23,4 +23,4 @@ Dont bully me pls
 
 # FUN FACT
 
-they didnt add any obf for their .js backend files
+they didnt add any obf for their .js client files
