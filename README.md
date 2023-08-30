@@ -15,7 +15,7 @@ if __name__ == "__main__":
     print(solver.solvecap().get("data"))
 ```
 
-# WARNNG!
+# WARNING!
 
 this code can be shit because i am bad dev. 
 Dont bully me pls
