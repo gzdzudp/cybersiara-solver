@@ -7,7 +7,7 @@ def encodefinger(fingerprint: str) -> str:
 
 def getfinger():
     navigator_info = {
-        "mimeTypes": {"length": randint(2, 11)},
+        "mimeTypes": {"length": randint(2, 99)},
         "appCodeName": "Mozilla",
         "appName": "Netscape",
         "appVersion": "5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
@@ -21,7 +21,7 @@ def getfinger():
         "productSub": "20030107",
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
         "vendor": "Google Inc.",
-        "plugins": {"length": randint(5, 12)}
+        "plugins": {"length": randint(5, 92)}
     }
 
     screen_info = {
@@ -30,7 +30,7 @@ def getfinger():
         "width": 1920,
         "height": 1080,
         "colorDepth": 24,
-        "pixelDepth": randint(21, 32),
+        "pixelDepth": randint(21, 98),
         "isExtended": False,
         "orientation": {
             "angle": 0,
