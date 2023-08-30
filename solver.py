@@ -1,5 +1,4 @@
 from utils.fingerprinter    import getfinger
-from utils.tls      import getja3
 from tls_client     import Session
 from random         import randint
 
@@ -12,7 +11,7 @@ class CybersiaraSolver:
         self.url = url
         self.masterid = masterurlid
 
-        session = Session(client_identifier="Chrome116", ja3_string=getja3())
+        session = Session(client_identifier="Chrome116")
         self.session = session
         self.headers = {
             "Accept": "application/json, text/javascript, */*; q=0.01",
